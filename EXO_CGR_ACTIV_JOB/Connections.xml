@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Connection>
+  <RutaLog Log=""/>
+  <SQLSAP Server="VMDES-9-2" Db="Comercial_Granell" DbUser="sa" DbPwd="Expertone.1"/>
+  <!--<FTP  URL="ftp://ftp.expertone.es/CLIENTES/YOKOHAMA/GEFCO/RETORNO" Usuario="EXPERTONE\omartinez" Password="Osma2015"/>-->
+  <DI Server="VMDES-9-2" LicenseServer="VMDES-9-2:30000" database="Comercial_Granell" UserName="manager" Password="granellcaf" DbPassword="Expertone.1" DbUserName="sa"/>
+</Connection>
