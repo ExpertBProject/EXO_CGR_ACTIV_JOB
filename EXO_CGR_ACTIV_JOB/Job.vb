@@ -9,12 +9,6 @@
 
         Dim iCountExeJob As Integer = 0
 
-        'Comprobamos que el JOB no está en ejecución y lo lanzamos
-        '    For Each oProcess As Process In Process.GetProcesses()
-        '         If Left(oProcess.ProcessName.ToString, 12) = "EXO_CGR_ACTIV_JOB" Then
-        '              iCountExeJob += 1
-        '           End If
-        '        Next
 
         If iCountExeJob = 0 Then
             Procesos.EnviarActividad(log)
